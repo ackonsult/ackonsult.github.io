@@ -382,6 +382,10 @@ STICKY STYLES
 	margin-top: 0;
 }
 
+.sticky .hide-item {
+	visibility: hidden;
+}
+
 .mobile-sticky {
     position: fixed;
     left: 0;
