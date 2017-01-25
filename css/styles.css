@@ -319,6 +319,11 @@ HEADER AND MENU STYLES
 	padding-right: 20px;
 }
 
+/******ACKONSULT*******/
+.header-menu-content .hide-item {
+	display: none;
+	font-weight: bold;
+}
 
 .top-link {
 	font-size: 1.3em;
@@ -382,8 +387,10 @@ STICKY STYLES
 	margin-top: 0;
 }
 
+/******ACKONSULT*******/
 .sticky .hide-item {
-	visibility: hidden;
+	display: inline;
+		font-weight: bold;
 }
 
 .mobile-sticky {
