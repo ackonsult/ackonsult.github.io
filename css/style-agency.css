@@ -493,7 +493,7 @@ sup {
   overflow: hidden;
   top: 0;
   left: -50%;
-  background: rgba(50, 58, 69, 0.9);
+/*   background: rgba(50, 58, 69, 0.9); */
   width: 100%;
   height: 100%;
   -webkit-transition: all 0.5s cubic-bezier(0.7, 0, 0.3, 1);
@@ -501,7 +501,7 @@ sup {
   -ms-transition: all 0.5s cubic-bezier(0.7, 0, 0.3, 1);
   -o-transition: all 0.5s cubic-bezier(0.7, 0, 0.3, 1);
   transition: all 0.5s cubic-bezier(0.7, 0, 0.3, 1);
-  border-right: 1px solid #15171e;
+/*   border-right: 1px solid #15171e; */
 }
 .overlay.skew-part {
   -webkit-transform: skew(-25deg, 0deg);
