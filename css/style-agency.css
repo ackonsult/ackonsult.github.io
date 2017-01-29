@@ -504,11 +504,11 @@ sup {
 /*   border-right: 1px solid #15171e; */
 }
 .overlay.skew-part {
-  -webkit-transform: skew(-25deg, 0deg);
-  -moz-transform: skew(-25deg, 0deg);
-  -ms-transform: skew(-25deg, 0deg);
-  -o-transform: skew(-25deg, 0deg);
-  transform: skew(-25deg, 0deg);
+  -webkit-transform: skew(-16deg, 0deg);
+  -moz-transform: skew(-16deg, 0deg);
+  -ms-transform: skew(-16deg, 0deg);
+  -o-transform: skew(-16deg, 0deg);
+  transform: skew(-16deg, 0deg);
 }
 
 #stars {
