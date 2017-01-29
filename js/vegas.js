@@ -14,7 +14,7 @@ $(window).load(function() {
 
         $('body').vegas({
             slides: [
-                { src: 'img/slide-1.jpg' }
+                { src: 'img/fotolia_113509130.jpg' }
             ],
 
             // Delay beetween slides in milliseconds.
