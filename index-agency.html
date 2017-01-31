@@ -43,7 +43,7 @@
  		<!-- Let it snow! -->
 		<canvas id="xmas" style="display: none;"></canvas>
 		
-		<canvas id="rainy" width="1" height="1"></canvas>
+		<canvas id="rainy" width="1" height="1" style="display: none;"></canvas>
 
 		<!-- Overlay and Star effect -->
 		<div class="global-overlay">
@@ -510,7 +510,7 @@
 
 	var jqxhr = $.getJSON( "http://api.apixu.com/v1/current.json?key=8da37ff678554c22864200743173101&q=Stuttgart", function(data) {
 		//alert( data.current.condition.text );
-		 //$( "#xmas" ).show();
+		 $( "#rainy" ).show();
 		
 	});
  
