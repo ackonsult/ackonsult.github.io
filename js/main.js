@@ -23,20 +23,6 @@
 $(window).load(function(){
     "use strict";
 
-    setTimeout(function(){
-        $('#preloader').velocity({
-
-            opacity: "0",
-
-            complete: function(){
-                $("#loading").velocity("fadeOut", {
-                    duration: 1000,
-                    easing: [0.7,0,0.3,1],
-                }); 
-            }
-        })
-
-    },1000);
 
     setTimeout(function(){
         $('.global-overlay').velocity({
@@ -70,7 +56,7 @@ $(window).load(function(){
                         },(i*150)+150);
                         })(this);
                     });
-                }, 0);
+                }, 50);
             }
 
         },
