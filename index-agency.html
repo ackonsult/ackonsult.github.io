@@ -39,6 +39,11 @@
 			</div>
 		</div>
  -->
+ 
+ 		<!-- Let it snow! -->
+		<canvas id="xmas" style="display: none;"></canvas>
+		
+		<canvas id="rainy" width="1" height="1"></canvas>
 
 		<!-- Overlay and Star effect -->
 		<div class="global-overlay">
@@ -68,10 +73,10 @@
 				<nav>
 					<ul>
 						<li>
-							<a href="#" id="open-more-info" data-target="right-side" class="light-btn text-intro opacity-0">Mehr erfahren</a>
+							<a href="#" id="open-more-info" data-target="right-side" class="light-btn text-intro opacity-0">MEHR ERFAHREN</a>
 						</li>
 						<li>
-							<a data-dialog="somedialog" class="action-btn trigger text-intro opacity-0">Kontakt</a>
+							<a data-dialog="somedialog" class="action-btn trigger text-intro opacity-0">KONTAKT</a>
 						</li>
 					</ul>
 				</nav>
@@ -488,9 +493,29 @@
 
 	<!-- PhotoSwipe UI JS file -->
 	<script src="js/photoswipe-ui-default.js"></script>
+	
+	<!-- Winter JS file -->
+	<script src="js/winter.js"></script> 
+	
+	<!-- Rain effect JS file -->
+	<script src="js/rain.min.js"></script> 
+
 
 	<!-- Main JS File -->
 	<script src="js/main.js"></script>
+	
+	    <script>
+
+  		
+
+	var jqxhr = $.getJSON( "http://api.apixu.com/v1/current.json?key=8da37ff678554c22864200743173101&q=Stuttgart", function(data) {
+		//alert( data.current.condition.text );
+		 //$( "#xmas" ).show();
+		
+	});
+ 
+
+    </script>
 	
 	<!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
 
