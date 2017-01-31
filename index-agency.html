@@ -509,9 +509,10 @@
   		
 
 	var jqxhr = $.getJSON( "http://api.apixu.com/v1/current.json?key=8da37ff678554c22864200743173101&q=Stuttgart", function(data) {
-		//alert( data.current.condition.text );
-		 $( "#rainy" ).show();
-		
+		 if (data.current.condition.text.indexOf("snow") > -1)  $( "#xmas" ).show();
+		 if (data.current.condition.text.indexOf("Snow") > -1)  $( "#xmas" ).show();
+		 if (data.current.condition.text.indexOf("rain") > -1)  $( "#rainy" ).show();
+		 if (data.current.condition.text.indexOf("Rain") > -1)  $( "#rainy" ).show();		
 	});
  
 
