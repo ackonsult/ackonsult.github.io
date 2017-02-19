@@ -62,7 +62,7 @@ $(window).load(function(){
         },
 
         {
-            duration: 200,
+            duration: 1000,
             easing: [0.7,0,0.3,1],
         })
         
