@@ -415,33 +415,12 @@
 	<!-- PhotoSwipe UI JS file -->
 	<script src="js/photoswipe-ui-default.js"></script>
 	
-	<!-- Winter JS file -->
-	<script src="js/winter.js"></script> 
-	
-	<!-- Rain effect JS file -->
-	<script src="js/rain.min.js"></script> 
 
 
 	<!-- Main JS File -->
 	<script src="js/main.js"></script>
 	
-	    <script>
 
-  		
-
-	var jqxhr = $.getJSON( "http://api.apixu.com/v1/current.json?key=8da37ff678554c22864200743173101&q=Stuttgart", function(data) {
-		 if (data.current.condition.text.indexOf("snow") > -1)  $( "#xmas" ).show();
-		 if (data.current.condition.text.indexOf("Snow") > -1)  $( "#xmas" ).show();
-		 //if (data.current.condition.text.indexOf("rain") > -1)  $( "#rainy" ).show();
-		 //if (data.current.condition.text.indexOf("Rain") > -1)  $( "#rainy" ).show();		
-	});
-	
-	document.addEventListener('gesturestart', function (e) {
-    e.preventDefault();
-});
- 
-
-    </script>
 	
 	<!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
 
