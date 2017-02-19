@@ -33,7 +33,7 @@ $(window).load(function(){
         },
 
         {
-            duration: 1000,
+            duration: 200,
             easing: [0.7,0,0.3,1],
         })
         
