@@ -11,7 +11,7 @@ if($_SERVER["HTTP_X_FORWARDED_PORT"] == "80"){
 	<head>
 		<meta charset="utf-8">
         <title>ACMN GmbH</title>
-        <meta name="description" content="The description should optimally be between 150-160 characters.">
+        <meta name="description" content="Wir bieten Ihnen einen Rundum-Service für die Automatisierung Ihrer Wohn- oder Geschäftsimmobilie, egal ob Neubau oder Modernisierung.">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
         <meta name="author" content="ACMN GmbH">
         <meta name="format-detection" content="telephone=no">
