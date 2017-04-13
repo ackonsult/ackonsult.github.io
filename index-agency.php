@@ -1,4 +1,11 @@
-<!DOCTYPE html>
+<?php
+if($_SERVER["HTTP_X_FORWARDED_PORT"] == "80"){
+    $redirect = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+    header('HTTP/1.1 301 Moved Permanently');
+    header('Location: ' . $redirect);
+    exit();
+}
+?><!DOCTYPE html>
 <html lang="en-us" class="no-js">
 
 	<head>
@@ -33,11 +40,6 @@
 	
 	<body>
 	
-	<script>
-if (!(window.location.host.startsWith("127.0.0.1")) && (window.location.protocol != "https:"))
-    window.location.protocol = "https";
-</script>
-
 
 		<!-- Overlay and Star effect -->
 		<div class="global-overlay">
@@ -292,7 +294,7 @@ if (!(window.location.host.startsWith("127.0.0.1")) && (window.location.protocol
         <p><b>ACMN GmbH</b><br>Schillerstraße 29/1, 71404 Korb</p><br>
         <p>Telefon: 07181 / 492 107 0<br>Telefax: 07181 / 492 107 9</p><br>
         <p>Vertreten durch den Geschäftsführer:<br> Jörg Ackermann </p><br>
-        <p>Eingetragen im Handelsregister beim Amtsgericht Stuttgart, HRB xxxxxx. Sitz der Gesellschaft: Stuttgart</p> <br>
+        <p>Eingetragen im Handelsregister beim Amtsgericht Stuttgart, HRB 760611. Sitz der Gesellschaft: Stuttgart</p> <br>
         <p>Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: DExxxxxxxxx</p> 
 
 				</div>
