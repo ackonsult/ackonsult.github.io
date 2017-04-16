@@ -448,7 +448,8 @@ sup {
 /* 2. Home ............................. */
 /* ------------------------------------- */
 .light-btn {
-  background: transparent;
+  x-background: transparent;
+  background-color:rgba(0, 0, 0, 0.5);
   font-weight: 600;
   padding: 0.7em 2em;
   color: #FFFFFF;
@@ -1086,14 +1087,14 @@ sup {
   width: 50%;
   max-width: 500px;
   min-width: 290px;
-  background: transparent;
+  background: black; /*transparent*/
   padding: 0;
   text-align: center;
   position: relative;
   z-index: 5;
   opacity: 0;
   overflow: hidden;
-  background: url(../img/background-newsletter.jpg) center;
+  /*background: url(../img/background-newsletter.jpg) center;*/
   background-size: cover;
   border: 10px solid #2B2D35;
 }

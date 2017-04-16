@@ -68,9 +68,9 @@ if($_SERVER["HTTP_X_FORWARDED_PORT"] == "80"){
 
 				<nav>
 					<ul>
-						<li>
+						<!--<li>
 							<a href="#" id="open-more-info" data-target="right-side" class="light-btn ">MEHR ERFAHREN</a>
-						</li>
+						</li>-->
 						<li>
 							<a href="tel:+498001003000" class="action-btn trigger  "><i class="fa fa-phone">&nbsp;&nbsp;</i>07181 492 107 0</a>
 						</li>
@@ -86,13 +86,13 @@ if($_SERVER["HTTP_X_FORWARDED_PORT"] == "80"){
 				<a  data-dialog="somedialog" class="info-link">Impressum</a> <span class="separator-link"></span>
 
 				<a href="https://www.facebook.com/ACMNGmbH/" target="_blank"><i class="fa fa-facebook"></i></a>
-				<a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
 
 			</div>
 
 		</section>
 		<!-- END - Home/Left Part -->
 
+		
 		<!-- START - More Informations/Right Part -->
 		<section id="right-side" class="hide-right">
 
@@ -276,6 +276,7 @@ if($_SERVER["HTTP_X_FORWARDED_PORT"] == "80"){
 
 		</section>
 		<!-- START - More Informations/Right Part -->
+		
 
 		<!-- Button Cross to close the More Informations/Right Part -->
 		<button id="close-more-info" class="hide-close"><i class="icon ion-ios-close-outline"></i></button>
