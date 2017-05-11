@@ -111,7 +111,7 @@ if($_SERVER["HTTP_X_FORWARDED_PORT"] == "80"){
         <p>Telefon: 07181 / 492 107 0<br>Telefax: 07181 / 492 107 9</p><br>
         <p>Vertreten durch den Geschäftsführer:<br> Jörg Ackermann </p><br>
         <p>Eingetragen im Handelsregister beim Amtsgericht Stuttgart, HRB 760611. Sitz der Gesellschaft: Stuttgart</p> <br>
-        <p>Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: beantragt</p> 
+        <p>Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: DE311489574</p> 
 
 				</div>
 				<!-- /. dialog-inner -->
